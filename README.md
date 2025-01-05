@@ -21,7 +21,9 @@ Firebase Firestore: The app uses Firestore as the database to store user and pos
 Firebase Storage: Used for storing image and media files.
 MVVM Architecture: The app uses the MVVM pattern to separate the business logic from the user interface for better maintainability.
 
- # Setup To run this project locally, follow these steps:
+ # Setup
+
+To run this project locally, follow these steps:
 
 1. Clone the Repository
 git clone https://github.com/YaremMalta/Instagramapp.git
@@ -42,10 +44,8 @@ FirebaseApp.configure()
 To install the Firebase and other dependencies, run the following commands in the terminal:
 
 pod install
-
 5. Run with Xcode
 Open the project in Xcode and run it:
 
 open Instagramapp.xcworkspace
-
 The app connects to Firebase and allows users to log in, upload photos, and access other features.
